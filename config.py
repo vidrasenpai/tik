@@ -31,8 +31,8 @@ OWNER = os.environ.get("OWNER", "Vidraplay")
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "")
-GROUP = os.environ.get("GROUP", "")
+CHANNEL = os.environ.get("CHANNEL", "ometvhxh")
+GROUP = os.environ.get("GROUP", "hv015")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001281312406"))

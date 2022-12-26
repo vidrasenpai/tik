@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5709794720:AAFZYXjbV52ryx_KmTQRzUdgQEvc5m7sKk4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5875492414:AAEwfXCm8aVZHMO_xTe5daQxFC9wUW3fm5A")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "7375040"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "7375040"))
 API_HASH = os.environ.get("API_HASH", "4166e18db5a7880136d41ceb0aa20971")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001870420030"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001831469638"))
 
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5574755137"))
@@ -28,15 +28,15 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5574755137"))
 OWNER = os.environ.get("OWNER", "Vidraplay")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://xhmvgrqs:TLFacIu6tb24LfQrkg9ePfj2dB-9g4gZ@satao.db.elephantsql.com/xhmvgrqs")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://uwkojsoo:2WaGr5bbFLiEq3B903lVz9wgg_slptFN@satao.db.elephantsql.com/uwkojsoo")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "tiktokviralbokepzyx")
 GROUP = os.environ.get("GROUP", "Cari_Teman_Online_Kawan")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001626155307"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001782588101"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001612553353"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001848836265"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 
@@ -63,7 +63,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1880970848)
+ADMINS.append(5574755137)
 ADMINS.append(1880970848)
 ADMINS.append(1880970848)
 ADMINS.append(1880970848)
